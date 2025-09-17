@@ -12,7 +12,7 @@ export default function Home() {
       <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
         {/* Item */}
         <div className="hs-carousel-slide">
-          <div className="h-120 md:h-[calc(100vh-106px)] lg:bg-[url('https://pub-d9fefb329ddd42289dfb5c7f6499ec92.r2.dev/Banner%20de%20Republica.jpg')]  flex flex-col bg-[url('https://pub-d9fefb329ddd42289dfb5c7f6499ec92.r2.dev/banner%20aniv-22.jpg')] bg-cover bg-center bg-no-repeat">
+          <div className="h-120 md:h-[calc(100vh-106px)] lg:bg-(image:./images/banner aniv-2)  flex flex-col bg-[url('https://pub-d9fefb329ddd42289dfb5c7f6499ec92.r2.dev/banner%20aniv-22.jpg')] bg-cover bg-center bg-no-repeat">
             <div className="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
               <span className="block text-white">Aniversary</span>
               <span className="block text-white text-xl md:text-3xl">PT KGP </span>
