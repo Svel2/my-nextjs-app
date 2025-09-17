@@ -9,19 +9,31 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@floating-ui/dom": "^1.7.4",
+    "@preline/dropdown": "^3.2.3",
+    "@tailwindcss/forms": "^0.5.10",
+    "datatables.net": "^2.3.4",
+    "dropzone": "^6.0.0-beta.2",
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21",
+    "next": "15.5.3",
+    "nouislider": "^15.8.1",
+    "preline": "^3.2.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.3"
+    "vanilla-calendar-pro": "^3.0.5"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/jquery": "^3.5.33",
+    "@types/lodash": "^4.17.20",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.3",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
