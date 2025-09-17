@@ -4,6 +4,7 @@ import PrelineScriptWrapper from '../components/PrelineScriptWrapper';
 import Header from '../components/Header';
 import "./globals.css";
 import Home from "@/components/Home";
+import Contact from "@/components/Contact";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +33,8 @@ export default function RootLayout({
       >
         <Header />
         <Home />
+        <Contact />
+        {children}
         <PrelineScriptWrapper />
       </body>
     </html>
